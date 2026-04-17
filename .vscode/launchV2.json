@@ -1,0 +1,2413 @@
+{vscode-file: //vscode-app/c:/Users/ceans/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js
+    "version": "0.2.0",
+    "configurations": [
+    workbench.js: 3 [DEBUG bootstrap-window
+        ] cssModules: undefined
+workbench.js: 3 [DEBUG bootstrap-window
+        ] esModule: vs/workbench/workbench.desktop.main
+workbench.js: 3 [DEBUG bootstrap-window
+        ] baseUrl: URL {origin: 'vscode-file: //vscode-app', protocol: 'vscode-file:', username: '', password: '', host: 'vscode-app', …}
+workbench.js: 3 [DEBUG bootstrap-window
+            ] new URL: vscode-file: //vscode-app/c:/Users/ceans/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js
+workbench.desktop.main.js: 2800  WARN Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.desktop.main.js: 8503
+Iqn @ workbench.desktop.main.js: 8503
+o @ workbench.desktop.main.js: 5928
+createInstance @ workbench.desktop.main.js: 5928
+Tqn @ workbench.desktop.main.js: 8507
+o @ workbench.desktop.main.js: 5928
+x @ workbench.desktop.main.js: 5928
+w @ workbench.desktop.main.js: 5928
+v @ workbench.desktop.main.js: 5928
+u @ workbench.desktop.main.js: 5928
+s @ workbench.desktop.main.js: 5928
+get @ workbench.desktop.main.js: 5928
+(anonymous) @ workbench.desktop.main.js: 8448
+invokeFunction @ workbench.desktop.main.js: 5928
+startup @ workbench.desktop.main.js: 8448
+open @ workbench.desktop.main.js: 8451
+await in open
+o_d @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.js: 5
+await in (anonymous)
+(anonymous) @ workbench.js: 5
+workbench.desktop.main.js: 2800  WARN Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.desktop.main.js: 8503
+Iqn @ workbench.desktop.main.js: 8503
+o @ workbench.desktop.main.js: 5928
+createInstance @ workbench.desktop.main.js: 5928
+Tqn @ workbench.desktop.main.js: 8507
+o @ workbench.desktop.main.js: 5928
+x @ workbench.desktop.main.js: 5928
+w @ workbench.desktop.main.js: 5928
+v @ workbench.desktop.main.js: 5928
+u @ workbench.desktop.main.js: 5928
+s @ workbench.desktop.main.js: 5928
+get @ workbench.desktop.main.js: 5928
+(anonymous) @ workbench.desktop.main.js: 8448
+invokeFunction @ workbench.desktop.main.js: 5928
+startup @ workbench.desktop.main.js: 8448
+open @ workbench.desktop.main.js: 8451
+await in open
+o_d @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.js: 5
+await in (anonymous)
+(anonymous) @ workbench.js: 5
+workbench.desktop.main.js: 2800  WARN Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.desktop.main.js: 8503
+Iqn @ workbench.desktop.main.js: 8503
+o @ workbench.desktop.main.js: 5928
+createInstance @ workbench.desktop.main.js: 5928
+Tqn @ workbench.desktop.main.js: 8507
+o @ workbench.desktop.main.js: 5928
+x @ workbench.desktop.main.js: 5928
+w @ workbench.desktop.main.js: 5928
+v @ workbench.desktop.main.js: 5928
+u @ workbench.desktop.main.js: 5928
+s @ workbench.desktop.main.js: 5928
+get @ workbench.desktop.main.js: 5928
+(anonymous) @ workbench.desktop.main.js: 8448
+invokeFunction @ workbench.desktop.main.js: 5928
+startup @ workbench.desktop.main.js: 8448
+open @ workbench.desktop.main.js: 8451
+await in open
+o_d @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.js: 5
+await in (anonymous)
+(anonymous) @ workbench.js: 5
+workbench.desktop.main.js: 2800  WARN Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'fileComments' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.desktop.main.js: 8503
+Iqn @ workbench.desktop.main.js: 8503
+o @ workbench.desktop.main.js: 5928
+createInstance @ workbench.desktop.main.js: 5928
+Tqn @ workbench.desktop.main.js: 8507
+o @ workbench.desktop.main.js: 5928
+x @ workbench.desktop.main.js: 5928
+w @ workbench.desktop.main.js: 5928
+v @ workbench.desktop.main.js: 5928
+u @ workbench.desktop.main.js: 5928
+s @ workbench.desktop.main.js: 5928
+get @ workbench.desktop.main.js: 5928
+(anonymous) @ workbench.desktop.main.js: 8448
+invokeFunction @ workbench.desktop.main.js: 5928
+startup @ workbench.desktop.main.js: 8448
+open @ workbench.desktop.main.js: 8451
+await in open
+o_d @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.js: 5
+await in (anonymous)
+(anonymous) @ workbench.js: 5
+workbench.desktop.main.js: 2800  WARN Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.desktop.main.js: 8503
+Iqn @ workbench.desktop.main.js: 8503
+o @ workbench.desktop.main.js: 5928
+createInstance @ workbench.desktop.main.js: 5928
+Tqn @ workbench.desktop.main.js: 8507
+o @ workbench.desktop.main.js: 5928
+x @ workbench.desktop.main.js: 5928
+w @ workbench.desktop.main.js: 5928
+v @ workbench.desktop.main.js: 5928
+u @ workbench.desktop.main.js: 5928
+s @ workbench.desktop.main.js: 5928
+get @ workbench.desktop.main.js: 5928
+(anonymous) @ workbench.desktop.main.js: 8448
+invokeFunction @ workbench.desktop.main.js: 5928
+startup @ workbench.desktop.main.js: 8448
+open @ workbench.desktop.main.js: 8451
+await in open
+o_d @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.js: 5
+await in (anonymous)
+(anonymous) @ workbench.js: 5
+workbench.desktop.main.js: 2800  WARN Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.desktop.main.js: 8503
+Iqn @ workbench.desktop.main.js: 8503
+o @ workbench.desktop.main.js: 5928
+createInstance @ workbench.desktop.main.js: 5928
+Tqn @ workbench.desktop.main.js: 8507
+o @ workbench.desktop.main.js: 5928
+x @ workbench.desktop.main.js: 5928
+w @ workbench.desktop.main.js: 5928
+v @ workbench.desktop.main.js: 5928
+u @ workbench.desktop.main.js: 5928
+s @ workbench.desktop.main.js: 5928
+get @ workbench.desktop.main.js: 5928
+(anonymous) @ workbench.desktop.main.js: 8448
+invokeFunction @ workbench.desktop.main.js: 5928
+startup @ workbench.desktop.main.js: 8448
+open @ workbench.desktop.main.js: 8451
+await in open
+o_d @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.js: 5
+await in (anonymous)
+(anonymous) @ workbench.js: 5
+workbench.desktop.main.js: 2800  WARN Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.desktop.main.js: 8503
+Iqn @ workbench.desktop.main.js: 8503
+o @ workbench.desktop.main.js: 5928
+createInstance @ workbench.desktop.main.js: 5928
+Tqn @ workbench.desktop.main.js: 8507
+o @ workbench.desktop.main.js: 5928
+x @ workbench.desktop.main.js: 5928
+w @ workbench.desktop.main.js: 5928
+v @ workbench.desktop.main.js: 5928
+u @ workbench.desktop.main.js: 5928
+s @ workbench.desktop.main.js: 5928
+get @ workbench.desktop.main.js: 5928
+(anonymous) @ workbench.desktop.main.js: 8448
+invokeFunction @ workbench.desktop.main.js: 5928
+startup @ workbench.desktop.main.js: 8448
+open @ workbench.desktop.main.js: 8451
+await in open
+o_d @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.js: 5
+await in (anonymous)
+(anonymous) @ workbench.js: 5
+workbench.desktop.main.js: 2800  WARN Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.desktop.main.js: 8503
+Iqn @ workbench.desktop.main.js: 8503
+o @ workbench.desktop.main.js: 5928
+createInstance @ workbench.desktop.main.js: 5928
+Tqn @ workbench.desktop.main.js: 8507
+o @ workbench.desktop.main.js: 5928
+x @ workbench.desktop.main.js: 5928
+w @ workbench.desktop.main.js: 5928
+v @ workbench.desktop.main.js: 5928
+u @ workbench.desktop.main.js: 5928
+s @ workbench.desktop.main.js: 5928
+get @ workbench.desktop.main.js: 5928
+(anonymous) @ workbench.desktop.main.js: 8448
+invokeFunction @ workbench.desktop.main.js: 5928
+startup @ workbench.desktop.main.js: 8448
+open @ workbench.desktop.main.js: 8451
+await in open
+o_d @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.js: 5
+await in (anonymous)
+(anonymous) @ workbench.js: 5
+workbench.desktop.main.js: 2800  WARN Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.desktop.main.js: 8503
+Iqn @ workbench.desktop.main.js: 8503
+o @ workbench.desktop.main.js: 5928
+createInstance @ workbench.desktop.main.js: 5928
+Tqn @ workbench.desktop.main.js: 8507
+o @ workbench.desktop.main.js: 5928
+x @ workbench.desktop.main.js: 5928
+w @ workbench.desktop.main.js: 5928
+v @ workbench.desktop.main.js: 5928
+u @ workbench.desktop.main.js: 5928
+s @ workbench.desktop.main.js: 5928
+get @ workbench.desktop.main.js: 5928
+(anonymous) @ workbench.desktop.main.js: 8448
+invokeFunction @ workbench.desktop.main.js: 5928
+startup @ workbench.desktop.main.js: 8448
+open @ workbench.desktop.main.js: 8451
+await in open
+o_d @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.js: 5
+await in (anonymous)
+(anonymous) @ workbench.js: 5
+workbench.desktop.main.js: 2800  WARN Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.desktop.main.js: 8503
+Iqn @ workbench.desktop.main.js: 8503
+o @ workbench.desktop.main.js: 5928
+createInstance @ workbench.desktop.main.js: 5928
+Tqn @ workbench.desktop.main.js: 8507
+o @ workbench.desktop.main.js: 5928
+x @ workbench.desktop.main.js: 5928
+w @ workbench.desktop.main.js: 5928
+v @ workbench.desktop.main.js: 5928
+u @ workbench.desktop.main.js: 5928
+s @ workbench.desktop.main.js: 5928
+get @ workbench.desktop.main.js: 5928
+(anonymous) @ workbench.desktop.main.js: 8448
+invokeFunction @ workbench.desktop.main.js: 5928
+startup @ workbench.desktop.main.js: 8448
+open @ workbench.desktop.main.js: 8451
+await in open
+o_d @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.js: 5
+await in (anonymous)
+(anonymous) @ workbench.js: 5
+workbench.desktop.main.js: 2800  WARN Via 'product.json#extensionEnabledApiProposals' extension 'dbaeumer.vscode-eslint' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.desktop.main.js: 8503
+Iqn @ workbench.desktop.main.js: 8503
+o @ workbench.desktop.main.js: 5928
+createInstance @ workbench.desktop.main.js: 5928
+Tqn @ workbench.desktop.main.js: 8507
+o @ workbench.desktop.main.js: 5928
+x @ workbench.desktop.main.js: 5928
+w @ workbench.desktop.main.js: 5928
+v @ workbench.desktop.main.js: 5928
+u @ workbench.desktop.main.js: 5928
+s @ workbench.desktop.main.js: 5928
+get @ workbench.desktop.main.js: 5928
+(anonymous) @ workbench.desktop.main.js: 8448
+invokeFunction @ workbench.desktop.main.js: 5928
+startup @ workbench.desktop.main.js: 8448
+open @ workbench.desktop.main.js: 8451
+await in open
+o_d @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.js: 5
+await in (anonymous)
+(anonymous) @ workbench.js: 5
+workbench.desktop.main.js: 2800  WARN Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.desktop.main.js: 8503
+Iqn @ workbench.desktop.main.js: 8503
+o @ workbench.desktop.main.js: 5928
+createInstance @ workbench.desktop.main.js: 5928
+Tqn @ workbench.desktop.main.js: 8507
+o @ workbench.desktop.main.js: 5928
+x @ workbench.desktop.main.js: 5928
+w @ workbench.desktop.main.js: 5928
+v @ workbench.desktop.main.js: 5928
+u @ workbench.desktop.main.js: 5928
+s @ workbench.desktop.main.js: 5928
+get @ workbench.desktop.main.js: 5928
+(anonymous) @ workbench.desktop.main.js: 8448
+invokeFunction @ workbench.desktop.main.js: 5928
+startup @ workbench.desktop.main.js: 8448
+open @ workbench.desktop.main.js: 8451
+await in open
+o_d @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.js: 5
+await in (anonymous)
+(anonymous) @ workbench.js: 5
+workbench.desktop.main.js: 2800  WARN Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.desktop.main.js: 8503
+Iqn @ workbench.desktop.main.js: 8503
+o @ workbench.desktop.main.js: 5928
+createInstance @ workbench.desktop.main.js: 5928
+Tqn @ workbench.desktop.main.js: 8507
+o @ workbench.desktop.main.js: 5928
+x @ workbench.desktop.main.js: 5928
+w @ workbench.desktop.main.js: 5928
+v @ workbench.desktop.main.js: 5928
+u @ workbench.desktop.main.js: 5928
+s @ workbench.desktop.main.js: 5928
+get @ workbench.desktop.main.js: 5928
+(anonymous) @ workbench.desktop.main.js: 8448
+invokeFunction @ workbench.desktop.main.js: 5928
+startup @ workbench.desktop.main.js: 8448
+open @ workbench.desktop.main.js: 8451
+await in open
+o_d @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.js: 5
+await in (anonymous)
+(anonymous) @ workbench.js: 5
+workbench.desktop.main.js: 2800  WARN Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.desktop.main.js: 8503
+Iqn @ workbench.desktop.main.js: 8503
+o @ workbench.desktop.main.js: 5928
+createInstance @ workbench.desktop.main.js: 5928
+Tqn @ workbench.desktop.main.js: 8507
+o @ workbench.desktop.main.js: 5928
+x @ workbench.desktop.main.js: 5928
+w @ workbench.desktop.main.js: 5928
+v @ workbench.desktop.main.js: 5928
+u @ workbench.desktop.main.js: 5928
+s @ workbench.desktop.main.js: 5928
+get @ workbench.desktop.main.js: 5928
+(anonymous) @ workbench.desktop.main.js: 8448
+invokeFunction @ workbench.desktop.main.js: 5928
+startup @ workbench.desktop.main.js: 8448
+open @ workbench.desktop.main.js: 8451
+await in open
+o_d @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.js: 5
+await in (anonymous)
+(anonymous) @ workbench.js: 5
+workbench.desktop.main.js: 2800  WARN Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 2800
+warn @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.desktop.main.js: 8503
+Iqn @ workbench.desktop.main.js: 8503
+o @ workbench.desktop.main.js: 5928
+createInstance @ workbench.desktop.main.js: 5928
+Tqn @ workbench.desktop.main.js: 8507
+o @ workbench.desktop.main.js: 5928
+x @ workbench.desktop.main.js: 5928
+w @ workbench.desktop.main.js: 5928
+v @ workbench.desktop.main.js: 5928
+u @ workbench.desktop.main.js: 5928
+s @ workbench.desktop.main.js: 5928
+get @ workbench.desktop.main.js: 5928
+(anonymous) @ workbench.desktop.main.js: 8448
+invokeFunction @ workbench.desktop.main.js: 5928
+startup @ workbench.desktop.main.js: 8448
+open @ workbench.desktop.main.js: 8451
+await in open
+o_d @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.js: 5
+await in (anonymous)
+(anonymous) @ workbench.js: 5
+workbench.desktop.main.js: 4236 USS file icon theme updated for <img> rendering
+workbench.desktop.main.js: 4236  INFO Started local extension host with pid 37360.
+workbench.desktop.main.js: 4236   ERR Extension 'ms-python.python' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider
+product.json (WINS): contribEditorContentMenu, quickPickSortByLabel, portsAttributes, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, notebookReplDocument
+console.error @ workbench.desktop.main.js: 4236
+error @ workbench.desktop.main.js: 2800
+error @ workbench.desktop.main.js: 2800
+error @ workbench.desktop.main.js: 8451
+g @ workbench.desktop.main.js: 8503
+updateEnabledApiProposals @ workbench.desktop.main.js: 8503
+Xdi @ workbench.desktop.main.js: 8502
+getInitData @ workbench.desktop.main.js: 8507
+await in getInitData
+I @ workbench.desktop.main.js: 8506
+(anonymous) @ workbench.desktop.main.js: 8506
+C @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 5071
+l.onmessage @ workbench.desktop.main.js: 8506
+workbench.desktop.main.js: 4236   ERR Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+console.error @ workbench.desktop.main.js: 4236
+error @ workbench.desktop.main.js: 2800
+error @ workbench.desktop.main.js: 2800
+error @ workbench.desktop.main.js: 8451
+g @ workbench.desktop.main.js: 8505
+updateEnabledApiProposals @ workbench.desktop.main.js: 8503
+Xdi @ workbench.desktop.main.js: 8502
+getInitData @ workbench.desktop.main.js: 8507
+await in getInitData
+I @ workbench.desktop.main.js: 8506
+(anonymous) @ workbench.desktop.main.js: 8506
+C @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 5071
+l.onmessage @ workbench.desktop.main.js: 8506
+workbench.desktop.main.js: 4236  INFO Invoking resolveAuthority(wsl)...
+workbench.desktop.main.js: 4236  INFO [LocalProcess0
+            ][resolveAuthority(wsl,
+                1)
+            ][
+                0ms
+            ] obtaining proxy...
+workbench.desktop.main.js: 4236  INFO [LocalProcess0
+            ][resolveAuthority(wsl,
+                1)
+            ][
+                3ms
+            ] invoking...
+workbench.desktop.main.js: 8506 Extension Host
+workbench.desktop.main.js: 4236 Set default auto-select family attempt timeout to 1000ms
+
+workbench.desktop.main.js: 4236  INFO [LocalProcess0
+            ][resolveAuthority(wsl,
+                1)
+            ][
+                222ms
+            ] returned WebSocket(127.0.0.1: 43183)
+workbench.desktop.main.js: 4236  INFO resolveAuthority(wsl) returned 'WebSocket(127.0.0.1: 43183)' after 222 ms
+workbench.desktop.main.js: 4236  INFO Creating a socket (renderer-Management-a6328575-2906-4f90-94e9-2495f85f750d)...
+workbench.desktop.main.js: 4236  INFO Creating a socket (renderer-ExtensionHost-c866e457-171e-46b4-950a-d0c26342b4fc)...
+workbench.desktop.main.js: 4236  INFO Creating a socket (renderer-Management-a6328575-2906-4f90-94e9-2495f85f750d) was successful after 12 ms.
+workbench.desktop.main.js: 4236  INFO Creating a socket (renderer-ExtensionHost-c866e457-171e-46b4-950a-d0c26342b4fc) was successful after 18 ms.
+workbench.desktop.main.js: 4236  INFO [reconnection-grace-time
+            ] Client received grace time from server: 10800000ms (10800s)
+workbench.desktop.main.js: 4236   ERR [vscode.git
+            ]: property `title` is mandatory and must be of type `string` or `object`
+console.error @ workbench.desktop.main.js: 4236
+error @ workbench.desktop.main.js: 2800
+error @ workbench.desktop.main.js: 2800
+error @ workbench.desktop.main.js: 8451
+Kb @ workbench.desktop.main.js: 8502
+s @ workbench.desktop.main.js: 8502
+d @ workbench.desktop.main.js: 5006
+error @ workbench.desktop.main.js: 5006
+h @ workbench.desktop.main.js: 5221
+u @ workbench.desktop.main.js: 5221
+e @ workbench.desktop.main.js: 5221
+(anonymous) @ workbench.desktop.main.js: 5221
+d @ workbench.desktop.main.js: 5006
+acceptUsers @ workbench.desktop.main.js: 5006
+Lb @ workbench.desktop.main.js: 8502
+Ib @ workbench.desktop.main.js: 8502
+mb @ workbench.desktop.main.js: 8501
+await in mb
+lb @ workbench.desktop.main.js: 8501
+await in lb
+(anonymous) @ workbench.desktop.main.js: 8507
+requestIdleCallback
+Aet @ workbench.desktop.main.js: 2792
+Xk @ workbench.desktop.main.js: 2797
+(anonymous) @ workbench.desktop.main.js: 8507
+Promise.then
+Tqn @ workbench.desktop.main.js: 8507
+o @ workbench.desktop.main.js: 5928
+x @ workbench.desktop.main.js: 5928
+w @ workbench.desktop.main.js: 5928
+v @ workbench.desktop.main.js: 5928
+u @ workbench.desktop.main.js: 5928
+s @ workbench.desktop.main.js: 5928
+get @ workbench.desktop.main.js: 5928
+(anonymous) @ workbench.desktop.main.js: 8448
+invokeFunction @ workbench.desktop.main.js: 5928
+startup @ workbench.desktop.main.js: 8448
+open @ workbench.desktop.main.js: 8451
+await in open
+o_d @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.js: 5
+await in (anonymous)
+(anonymous) @ workbench.js: 5
+workbench.desktop.main.js: 4236   ERR [vscode.git
+            ]: property `title` is mandatory and must be of type `string` or `object`
+console.error @ workbench.desktop.main.js: 4236
+error @ workbench.desktop.main.js: 2800
+error @ workbench.desktop.main.js: 2800
+error @ workbench.desktop.main.js: 8451
+Kb @ workbench.desktop.main.js: 8502
+s @ workbench.desktop.main.js: 8502
+d @ workbench.desktop.main.js: 5006
+error @ workbench.desktop.main.js: 5006
+h @ workbench.desktop.main.js: 5221
+u @ workbench.desktop.main.js: 5221
+e @ workbench.desktop.main.js: 5221
+(anonymous) @ workbench.desktop.main.js: 5221
+d @ workbench.desktop.main.js: 5006
+acceptUsers @ workbench.desktop.main.js: 5006
+Lb @ workbench.desktop.main.js: 8502
+Ib @ workbench.desktop.main.js: 8502
+mb @ workbench.desktop.main.js: 8501
+await in mb
+lb @ workbench.desktop.main.js: 8501
+await in lb
+(anonymous) @ workbench.desktop.main.js: 8507
+requestIdleCallback
+Aet @ workbench.desktop.main.js: 2792
+Xk @ workbench.desktop.main.js: 2797
+(anonymous) @ workbench.desktop.main.js: 8507
+Promise.then
+Tqn @ workbench.desktop.main.js: 8507
+o @ workbench.desktop.main.js: 5928
+x @ workbench.desktop.main.js: 5928
+w @ workbench.desktop.main.js: 5928
+v @ workbench.desktop.main.js: 5928
+u @ workbench.desktop.main.js: 5928
+s @ workbench.desktop.main.js: 5928
+get @ workbench.desktop.main.js: 5928
+(anonymous) @ workbench.desktop.main.js: 8448
+invokeFunction @ workbench.desktop.main.js: 5928
+startup @ workbench.desktop.main.js: 8448
+open @ workbench.desktop.main.js: 8451
+await in open
+o_d @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.js: 5
+await in (anonymous)
+(anonymous) @ workbench.js: 5
+workbench.desktop.main.js: 4236   ERR [google.antigravity
+            ]: Menu item references a command `antigravity.importAntigravitySettings` which is not defined in the 'commands' section.
+console.error @ workbench.desktop.main.js: 4236
+error @ workbench.desktop.main.js: 2800
+error @ workbench.desktop.main.js: 2800
+error @ workbench.desktop.main.js: 8451
+Kb @ workbench.desktop.main.js: 8502
+s @ workbench.desktop.main.js: 8502
+d @ workbench.desktop.main.js: 5006
+error @ workbench.desktop.main.js: 5006
+(anonymous) @ workbench.desktop.main.js: 5221
+d @ workbench.desktop.main.js: 5006
+acceptUsers @ workbench.desktop.main.js: 5006
+Lb @ workbench.desktop.main.js: 8502
+Ib @ workbench.desktop.main.js: 8502
+mb @ workbench.desktop.main.js: 8501
+await in mb
+lb @ workbench.desktop.main.js: 8501
+await in lb
+(anonymous) @ workbench.desktop.main.js: 8507
+requestIdleCallback
+Aet @ workbench.desktop.main.js: 2792
+Xk @ workbench.desktop.main.js: 2797
+(anonymous) @ workbench.desktop.main.js: 8507
+Promise.then
+Tqn @ workbench.desktop.main.js: 8507
+o @ workbench.desktop.main.js: 5928
+x @ workbench.desktop.main.js: 5928
+w @ workbench.desktop.main.js: 5928
+v @ workbench.desktop.main.js: 5928
+u @ workbench.desktop.main.js: 5928
+s @ workbench.desktop.main.js: 5928
+get @ workbench.desktop.main.js: 5928
+(anonymous) @ workbench.desktop.main.js: 8448
+invokeFunction @ workbench.desktop.main.js: 5928
+startup @ workbench.desktop.main.js: 8448
+open @ workbench.desktop.main.js: 8451
+await in open
+o_d @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.js: 5
+await in (anonymous)
+(anonymous) @ workbench.js: 5
+workbench.desktop.main.js: 4236   ERR [google.antigravity
+            ]: Menu item references a command `antigravity.importAntigravityExtensions` which is not defined in the 'commands' section.
+console.error @ workbench.desktop.main.js: 4236
+error @ workbench.desktop.main.js: 2800
+error @ workbench.desktop.main.js: 2800
+error @ workbench.desktop.main.js: 8451
+Kb @ workbench.desktop.main.js: 8502
+s @ workbench.desktop.main.js: 8502
+d @ workbench.desktop.main.js: 5006
+error @ workbench.desktop.main.js: 5006
+(anonymous) @ workbench.desktop.main.js: 5221
+d @ workbench.desktop.main.js: 5006
+acceptUsers @ workbench.desktop.main.js: 5006
+Lb @ workbench.desktop.main.js: 8502
+Ib @ workbench.desktop.main.js: 8502
+mb @ workbench.desktop.main.js: 8501
+await in mb
+lb @ workbench.desktop.main.js: 8501
+await in lb
+(anonymous) @ workbench.desktop.main.js: 8507
+requestIdleCallback
+Aet @ workbench.desktop.main.js: 2792
+Xk @ workbench.desktop.main.js: 2797
+(anonymous) @ workbench.desktop.main.js: 8507
+Promise.then
+Tqn @ workbench.desktop.main.js: 8507
+o @ workbench.desktop.main.js: 5928
+x @ workbench.desktop.main.js: 5928
+w @ workbench.desktop.main.js: 5928
+v @ workbench.desktop.main.js: 5928
+u @ workbench.desktop.main.js: 5928
+s @ workbench.desktop.main.js: 5928
+get @ workbench.desktop.main.js: 5928
+(anonymous) @ workbench.desktop.main.js: 8448
+invokeFunction @ workbench.desktop.main.js: 5928
+startup @ workbench.desktop.main.js: 8448
+open @ workbench.desktop.main.js: 8451
+await in open
+o_d @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.js: 5
+await in (anonymous)
+(anonymous) @ workbench.js: 5
+workbench.desktop.main.js: 4236   ERR [google.antigravity
+            ]: Menu item references a command `antigravity.prioritized.chat.open` which is not defined in the 'commands' section.
+console.error @ workbench.desktop.main.js: 4236
+error @ workbench.desktop.main.js: 2800
+error @ workbench.desktop.main.js: 2800
+error @ workbench.desktop.main.js: 8451
+Kb @ workbench.desktop.main.js: 8502
+s @ workbench.desktop.main.js: 8502
+d @ workbench.desktop.main.js: 5006
+error @ workbench.desktop.main.js: 5006
+(anonymous) @ workbench.desktop.main.js: 5221
+d @ workbench.desktop.main.js: 5006
+acceptUsers @ workbench.desktop.main.js: 5006
+Lb @ workbench.desktop.main.js: 8502
+Ib @ workbench.desktop.main.js: 8502
+mb @ workbench.desktop.main.js: 8501
+await in mb
+lb @ workbench.desktop.main.js: 8501
+await in lb
+(anonymous) @ workbench.desktop.main.js: 8507
+requestIdleCallback
+Aet @ workbench.desktop.main.js: 2792
+Xk @ workbench.desktop.main.js: 2797
+(anonymous) @ workbench.desktop.main.js: 8507
+Promise.then
+Tqn @ workbench.desktop.main.js: 8507
+o @ workbench.desktop.main.js: 5928
+x @ workbench.desktop.main.js: 5928
+w @ workbench.desktop.main.js: 5928
+v @ workbench.desktop.main.js: 5928
+u @ workbench.desktop.main.js: 5928
+s @ workbench.desktop.main.js: 5928
+get @ workbench.desktop.main.js: 5928
+(anonymous) @ workbench.desktop.main.js: 8448
+invokeFunction @ workbench.desktop.main.js: 5928
+startup @ workbench.desktop.main.js: 8448
+open @ workbench.desktop.main.js: 8451
+await in open
+o_d @ workbench.desktop.main.js: 8451
+(anonymous) @ workbench.js: 5
+await in (anonymous)
+(anonymous) @ workbench.js: 5
+workbench.desktop.main.js: 4236 [Extension Host
+            ] Error retrieving Unleash sample rate Error: UnleashProvider must be initialized first!
+	at S.getInstance (/home/drew/.antigravity-server/bin/1.22.2-62335c71d47037adf0a8de54e250bb8ea6016b15/extensions/antigravity/dist/extension.js: 2: 347514)
+	at r (/home/drew/.antigravity-server/bin/1.22.2-62335c71d47037adf0a8de54e250bb8ea6016b15/extensions/antigravity/dist/extension.js: 2: 216815)
+	at t.sentryInit (/home/drew/.antigravity-server/bin/1.22.2-62335c71d47037adf0a8de54e250bb8ea6016b15/extensions/antigravity/dist/extension.js: 2: 216931)
+	at t.activate (/home/drew/.antigravity-server/bin/1.22.2-62335c71d47037adf0a8de54e250bb8ea6016b15/extensions/antigravity/dist/extension.js: 2: 751267)
+	at Rv.kb (file: ///home/drew/.antigravity-server/bin/1.22.2-62335c71d47037adf0a8de54e250bb8ea6016b15/out/vs/workbench/api/node/extensionHostProcess.js:122:16701)
+	at Rv.jb (file: ///home/drew/.antigravity-server/bin/1.22.2-62335c71d47037adf0a8de54e250bb8ea6016b15/out/vs/workbench/api/node/extensionHostProcess.js:122:16446)
+	at file: ///home/drew/.antigravity-server/bin/1.22.2-62335c71d47037adf0a8de54e250bb8ea6016b15/out/vs/workbench/api/node/extensionHostProcess.js:122:14554
+	at process.processTicksAndRejections (node:internal/process/task_queues: 105: 5)
+	at async QS.n (file: ///home/drew/.antigravity-server/bin/1.22.2-62335c71d47037adf0a8de54e250bb8ea6016b15/out/vs/workbench/api/node/extensionHostProcess.js:117:14144)
+	at async QS.m (file: ///home/drew/.antigravity-server/bin/1.22.2-62335c71d47037adf0a8de54e250bb8ea6016b15/out/vs/workbench/api/node/extensionHostProcess.js:117:14107)
+	at async QS.l (file: ///home/drew/.antigravity-server/bin/1.22.2-62335c71d47037adf0a8de54e250bb8ea6016b15/out/vs/workbench/api/node/extensionHostProcess.js:117:13563)
+workbench.desktop.main.js: 4236 [Extension Host
+            ] (Antigravity) 2026-04-17 05: 25: 25 [INFO
+            ]: Language server started
+workbench.desktop.main.js: 4236 [Extension Host
+            ] (Antigravity) 2026-04-17 05: 25: 25 [INFO
+            ]: LS lspClient started successfully
+workbench.desktop.main.js: 4236  POST https: //127.0.0.1:41309/exa.language_server_pb.LanguageServerService/GetUnleashData net::ERR_CERT_AUTHORITY_INVALID
+next @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 4362
+G9c @ workbench.desktop.main.js: 4168
+unary @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 4168
+e @ workbench.desktop.main.js: 5137
+Promise.then
+u @ workbench.desktop.main.js: 5137
+o.value @ workbench.desktop.main.js: 2765
+s @ workbench.desktop.main.js: 5137
+o.value @ workbench.desktop.main.js: 2765
+setPort @ workbench.desktop.main.js: 5137
+o.value @ workbench.desktop.main.js: 2765
+(anonymous) @ workbench.desktop.main.js: 5137
+C @ workbench.desktop.main.js: 2791
+D @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 2791
+(anonymous) @ workbench.desktop.main.js: 8510
+k @ workbench.desktop.main.js: 2793
+endUpdate @ workbench.desktop.main.js: 2793
+finish @ workbench.desktop.main.js: 2792
+set @ workbench.desktop.main.js: 2793
+setPort @ workbench.desktop.main.js: 8510
+o.value @ workbench.desktop.main.js: 4169
+$setLanguageServerPort @ workbench.desktop.main.js: 5108
+o.value @ workbench.desktop.main.js: 2765
+S @ workbench.desktop.main.js: 8495
+Q @ workbench.desktop.main.js: 8495
+M @ workbench.desktop.main.js: 8495
+L @ workbench.desktop.main.js: 8495
+(anonymous) @ workbench.desktop.main.js: 8495
+C @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 5071
+A @ workbench.desktop.main.js: 5071
+(anonymous) @ workbench.desktop.main.js: 5071
+C @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 2791
+acceptChunk @ workbench.desktop.main.js: 5071
+(anonymous) @ workbench.desktop.main.js: 5071
+(anonymous) @ workbench.desktop.main.js: 8451
+C @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 2791
+JBd.j.onload @ workbench.desktop.main.js: 8451
+FileReader
+i @ workbench.desktop.main.js: 8451
+JBd.r @ workbench.desktop.main.js: 8451
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [unknown
+            ] Failed to fetch
+workbench.desktop.main.js: 4236  POST https: //127.0.0.1:41309/exa.language_server_pb.LanguageServerService/ListPages net::ERR_CERT_AUTHORITY_INVALID
+next @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 4362
+G9c @ workbench.desktop.main.js: 4168
+unary @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 4168
+e.<computed> @ workbench.desktop.main.js: 4236
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+e.initialFetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.start @ workbench.desktop.main.js: 5137
+s @ workbench.desktop.main.js: 5137
+o.value @ workbench.desktop.main.js: 2765
+setPort @ workbench.desktop.main.js: 5137
+o.value @ workbench.desktop.main.js: 2765
+(anonymous) @ workbench.desktop.main.js: 5137
+C @ workbench.desktop.main.js: 2791
+D @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 2791
+(anonymous) @ workbench.desktop.main.js: 8510
+k @ workbench.desktop.main.js: 2793
+endUpdate @ workbench.desktop.main.js: 2793
+finish @ workbench.desktop.main.js: 2792
+set @ workbench.desktop.main.js: 2793
+setPort @ workbench.desktop.main.js: 8510
+o.value @ workbench.desktop.main.js: 4169
+$setLanguageServerPort @ workbench.desktop.main.js: 5108
+o.value @ workbench.desktop.main.js: 2765
+S @ workbench.desktop.main.js: 8495
+Q @ workbench.desktop.main.js: 8495
+M @ workbench.desktop.main.js: 8495
+L @ workbench.desktop.main.js: 8495
+(anonymous) @ workbench.desktop.main.js: 8495
+C @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 5071
+A @ workbench.desktop.main.js: 5071
+(anonymous) @ workbench.desktop.main.js: 5071
+C @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 2791
+acceptChunk @ workbench.desktop.main.js: 5071
+(anonymous) @ workbench.desktop.main.js: 5071
+(anonymous) @ workbench.desktop.main.js: 8451
+C @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 2791
+JBd.j.onload @ workbench.desktop.main.js: 8451
+FileReader
+i @ workbench.desktop.main.js: 8451
+JBd.r @ workbench.desktop.main.js: 8451
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+e.initialFetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.start @ workbench.desktop.main.js: 5137
+s @ workbench.desktop.main.js: 5137
+o.value @ workbench.desktop.main.js: 2765
+setPort @ workbench.desktop.main.js: 5137
+o.value @ workbench.desktop.main.js: 2765
+(anonymous) @ workbench.desktop.main.js: 5137
+C @ workbench.desktop.main.js: 2791
+D @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 2791
+(anonymous) @ workbench.desktop.main.js: 8510
+k @ workbench.desktop.main.js: 2793
+endUpdate @ workbench.desktop.main.js: 2793
+finish @ workbench.desktop.main.js: 2792
+set @ workbench.desktop.main.js: 2793
+setPort @ workbench.desktop.main.js: 8510
+o.value @ workbench.desktop.main.js: 4169
+$setLanguageServerPort @ workbench.desktop.main.js: 5108
+o.value @ workbench.desktop.main.js: 2765
+S @ workbench.desktop.main.js: 8495
+Q @ workbench.desktop.main.js: 8495
+M @ workbench.desktop.main.js: 8495
+L @ workbench.desktop.main.js: 8495
+(anonymous) @ workbench.desktop.main.js: 8495
+C @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 5071
+A @ workbench.desktop.main.js: 5071
+(anonymous) @ workbench.desktop.main.js: 5071
+C @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 2791
+acceptChunk @ workbench.desktop.main.js: 5071
+(anonymous) @ workbench.desktop.main.js: 5071
+(anonymous) @ workbench.desktop.main.js: 8451
+C @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 2791
+JBd.j.onload @ workbench.desktop.main.js: 8451
+FileReader
+i @ workbench.desktop.main.js: 8451
+JBd.r @ workbench.desktop.main.js: 8451
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 4236   ERR [createInstance
+            ] Hre depends on UNKNOWN service agentSessions.: Error: [createInstance
+            ] Hre depends on UNKNOWN service agentSessions.
+    at Sss.y (vscode-file: //vscode-app/c:/Users/ceans/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5928:4186)
+    at Sss.o (vscode-file: //vscode-app/c:/Users/ceans/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5928:1360)
+    at Sss.createInstance (vscode-file: //vscode-app/c:/Users/ceans/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5928:1207)
+    at new Jqt (vscode-file: //vscode-app/c:/Users/ceans/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6597:8181)
+    at new EVn (vscode-file: //vscode-app/c:/Users/ceans/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6597:15815)
+    at Sss.o (vscode-file: //vscode-app/c:/Users/ceans/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5928:1710)
+    at Sss.createInstance (vscode-file: //vscode-app/c:/Users/ceans/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5928:1207)
+    at new zqt (vscode-file: //vscode-app/c:/Users/ceans/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6597:18528)
+    at Sss.o (vscode-file: //vscode-app/c:/Users/ceans/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5928:1710)
+    at Sss.createInstance (vscode-file: //vscode-app/c:/Users/ceans/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5928:1207)
+console.error @ workbench.desktop.main.js: 4236
+error @ workbench.desktop.main.js: 2800
+error @ workbench.desktop.main.js: 2800
+error @ workbench.desktop.main.js: 8451
+rc @ workbench.desktop.main.js: 8448
+(anonymous) @ workbench.desktop.main.js: 8448
+onUnexpectedError @ workbench.desktop.main.js: 2769
+t9t @ workbench.desktop.main.js: 2769
+k @ workbench.desktop.main.js: 2793
+vLe @ workbench.desktop.main.js: 2793
+Ai @ workbench.desktop.main.js: 2793
+lFe @ workbench.desktop.main.js: 6597
+o @ workbench.desktop.main.js: 5928
+createInstance @ workbench.desktop.main.js: 5928
+m @ workbench.desktop.main.js: 3011
+h @ workbench.desktop.main.js: 3011
+initialize @ workbench.desktop.main.js: 3011
+sm @ workbench.desktop.main.js: 3050
+o @ workbench.desktop.main.js: 5928
+createInstance @ workbench.desktop.main.js: 5928
+Lb @ workbench.desktop.main.js: 5231
+Lb @ workbench.desktop.main.js: 7238
+Z @ workbench.desktop.main.js: 5042
+create @ workbench.desktop.main.js: 5042
+P @ workbench.desktop.main.js: 5236
+O @ workbench.desktop.main.js: 5236
+L @ workbench.desktop.main.js: 5236
+openEditor @ workbench.desktop.main.js: 5236
+(anonymous) @ workbench.desktop.main.js: 5348
+Lb @ workbench.desktop.main.js: 5348
+Kb @ workbench.desktop.main.js: 5348
+openEditor @ workbench.desktop.main.js: 5348
+openEditor @ workbench.desktop.main.js: 5852
+await in openEditor
+(anonymous) @ workbench.desktop.main.js: 6498
+C @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 2791
+j @ workbench.desktop.main.js: 3204
+g @ workbench.desktop.main.js: 3204
+(anonymous) @ workbench.desktop.main.js: 3204
+C @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 2791
+(anonymous) @ workbench.desktop.main.js: 2789
+C @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 2791
+(anonymous) @ workbench.desktop.main.js: 2789
+C @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 2791
+v @ workbench.desktop.main.js: 3055
+v @ workbench.desktop.main.js: 3203
+(anonymous) @ workbench.desktop.main.js: 2789
+C @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 2791
+(anonymous) @ workbench.desktop.main.js: 2789
+C @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 2791
+n @ workbench.desktop.main.js: 2837
+workbench.desktop.main.js: 4236   ERR [createInstance
+            ] Hre depends on UNKNOWN service agentSessions.: Error: [createInstance
+            ] Hre depends on UNKNOWN service agentSessions.
+    at Sss.y (vscode-file: //vscode-app/c:/Users/ceans/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5928:4186)
+    at Sss.o (vscode-file: //vscode-app/c:/Users/ceans/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5928:1360)
+    at Sss.createInstance (vscode-file: //vscode-app/c:/Users/ceans/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5928:1207)
+    at new Jqt (vscode-file: //vscode-app/c:/Users/ceans/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6597:8181)
+    at new EVn (vscode-file: //vscode-app/c:/Users/ceans/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6597:15815)
+    at Sss.o (vscode-file: //vscode-app/c:/Users/ceans/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5928:1710)
+    at Sss.createInstance (vscode-file: //vscode-app/c:/Users/ceans/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5928:1207)
+    at new zqt (vscode-file: //vscode-app/c:/Users/ceans/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6597:18528)
+    at Sss.o (vscode-file: //vscode-app/c:/Users/ceans/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5928:1710)
+    at Sss.createInstance (vscode-file: //vscode-app/c:/Users/ceans/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5928:1207)
+console.error @ workbench.desktop.main.js: 4236
+error @ workbench.desktop.main.js: 2800
+error @ workbench.desktop.main.js: 2800
+error @ workbench.desktop.main.js: 8451
+rc @ workbench.desktop.main.js: 8448
+(anonymous) @ workbench.desktop.main.js: 8448
+onUnexpectedError @ workbench.desktop.main.js: 2769
+t9t @ workbench.desktop.main.js: 2769
+k @ workbench.desktop.main.js: 2793
+vLe @ workbench.desktop.main.js: 2793
+Ai @ workbench.desktop.main.js: 2793
+lFe @ workbench.desktop.main.js: 6597
+o @ workbench.desktop.main.js: 5928
+createInstance @ workbench.desktop.main.js: 5928
+m @ workbench.desktop.main.js: 3011
+h @ workbench.desktop.main.js: 3011
+initialize @ workbench.desktop.main.js: 3011
+sm @ workbench.desktop.main.js: 3050
+o @ workbench.desktop.main.js: 5928
+createInstance @ workbench.desktop.main.js: 5928
+Lb @ workbench.desktop.main.js: 5231
+Z @ workbench.desktop.main.js: 5042
+Z @ workbench.desktop.main.js: 7336
+create @ workbench.desktop.main.js: 5042
+X @ workbench.desktop.main.js: 7336
+render @ workbench.desktop.main.js: 5083
+render @ workbench.desktop.main.js: 5084
+ub @ workbench.desktop.main.js: 5106
+create @ workbench.desktop.main.js: 5106
+create @ workbench.desktop.main.js: 5224
+Fb @ workbench.desktop.main.js: 5348
+Fb @ workbench.desktop.main.js: 5355
+Db @ workbench.desktop.main.js: 5348
+Cb @ workbench.desktop.main.js: 5348
+Cc @ workbench.desktop.main.js: 5355
+openPaneComposite @ workbench.desktop.main.js: 5355
+openPaneComposite @ workbench.desktop.main.js: 5805
+N @ workbench.desktop.main.js: 5888
+openView @ workbench.desktop.main.js: 5888
+showChannel @ workbench.desktop.main.js: 7336
+$reveal @ workbench.desktop.main.js: 5076
+S @ workbench.desktop.main.js: 8495
+Q @ workbench.desktop.main.js: 8495
+M @ workbench.desktop.main.js: 8495
+L @ workbench.desktop.main.js: 8495
+(anonymous) @ workbench.desktop.main.js: 8495
+C @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 5071
+A @ workbench.desktop.main.js: 5071
+(anonymous) @ workbench.desktop.main.js: 5071
+C @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 2791
+acceptChunk @ workbench.desktop.main.js: 5071
+(anonymous) @ workbench.desktop.main.js: 5071
+(anonymous) @ workbench.desktop.main.js: 8451
+C @ workbench.desktop.main.js: 2791
+fire @ workbench.desktop.main.js: 2791
+JBd.j.onload @ workbench.desktop.main.js: 8451
+FileReader
+i @ workbench.desktop.main.js: 8451
+JBd.r @ workbench.desktop.main.js: 8451
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.html: 1 Blocked aria-hidden on an element because its descendant retained focus. The focus must not be hidden from assistive technology users. Avoid using aria-hidden on a focused element or its ancestor. Consider using the inert attribute instead, which will also prevent focus. For more details, see the aria-hidden section of the WAI-ARIA specification at https: //w3c.github.io/aria/#aria-hidden.
+Element with focus: <textarea.input>
+Ancestor with aria-hidden: <div.editor-widget find-widget> <div class=​"editor-widget find-widget visible" aria-hidden=​"false" aria-label=​"Find /​ Replace" role=​"dialog" widgetid=​"editor.contrib.findWidget" style=​"width:​ 419px;​ height:​ 10px;​ position:​ absolute;​">​…​</div>​
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.updateToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.updateContext @ workbench.desktop.main.js: 5137
+e @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.updateToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.updateContext @ workbench.desktop.main.js: 5137
+e @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 5137  POST https: //127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js: 4236
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+o @ workbench.desktop.main.js: 5137
+Promise.then
+l @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+EN @ workbench.desktop.main.js: 5137
+e.fetchToggles @ workbench.desktop.main.js: 5137
+(anonymous) @ workbench.desktop.main.js: 5137
+workbench.desktop.main.js: 4236 [AntigravityUnleashService
+            ] [object Object
+            ]
+workbench.desktop.main.js: 4236 [Extension Host
+            ] [Supercomplete
+            ] Resolving completion: {vscode-file: //vscode-app/c:/Users/ceans/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js
+                "version": "0.2.0",
+                "configurations": [
+                    {
+                        "name": "Attach to Chrome",
+                        "port": 9222,
+                        "request": "attach",
+                        "type": "chrome",
+                        "webRoot": "${workspaceFolder}"
+                    },
+                    {
+                        "name": "Attach",
+                        "port": 9229,
+                        "request": "attach",
+                        "skipFiles": [
+                            "<node_internals>/**"
+                        ],
+                        "type": "node"
+                    },
+                    {
+                        "name": "Launch Program",
+                        "program": "${workspaceFolder}/app.js",
+                        "request": "launch",
+                        "skipFiles": [
+                            "<node_internals>/**"
+                        ],
+                        "type": "node"
+                    },
+                    {
+                        "name": "Attach to Edge",
+                        "port": 9222,
+                        "request": "attach",
+                        "type": "msedge",
+                        "webRoot": "NETWORKBUSTER.COM"
+                    },
+                    {
+                        "name": "Electron Main",
+                        "program": "${workspaceFolder}/main.js",
+                        "request": "launch",
+                        "runtimeExecutable": "electron",
+                        "skipFiles": [
+                            "<node_internals>/**"
+                        ],
+                        "type": "node"
+                    },
+                    {
+                        "name": "eb013163cb73f4dc698d1454aca94da35aea2031",
+                        "processId": "${command:PickProcess}",
+                        "request": "attach",
+                        "skipFiles": [
+                            "<node_internals>/**"
+                        ],
+                        "type": "node"
+                    },
+    eb013163cb73f4dc698d1454aca94da35aea2031
+    {
+                        "name": "Electron Main",
+                        "program": "${workspaceFolder}/main.js",
+                        "request": "launch",
+                        "runtimeExecutable": "electron",
+                        "skipFiles": [
+                            "<node_internals>/**"
+                        ],
+                        "type": "node"
+                    },
+                    {
+                        "name": "Launch Program",
+                        "program": "${workspaceFolder}/
+      PROGRAMS","request": "launch","skipFiles": ["<node_internals>/**"
+    ],
+    "type": "node"
+  },
+  {
+    "name": "Attach to Chrome",
+    "port": 9222,
+    "request": "attach",
+    "type": "chrome",
+    "webRoot": "${workspaceFolder}"
+  },
+  {
+    "name": "Launch Chrome",
+    "request": "launch",
+    "type": "chrome",
+    "url": "http://localhost:8080",
+    "webRoot": "${workspaceFolder}"
+  },
+  {
+    "name": "Launch Edge",
+    "request": "launch",
+    "type": "msedge",
+    "url": "http://localhost:8080",
+    "webRoot": "${workspaceFolder}"
+  },
+  {
+    "name": "Attach",
+    "port": 9229,
+    "request": "attach",
+    "skipFiles": [
+      "<node_internals>/**"
+    ],
+    "type": "node"
+  },
+  {
+    "address": "TCP/IP address of process to be debugged",
+    "localRoot": "${workspaceFolder}",
+    "name": "Attach to Remote",
+    "port": 9229,
+    "remoteRoot": "Absolute path to the remote directory containing the program",
+    "request": "attach",
+    "skipFiles": [
+      "<node_internals>/**"
+    ],
+    "type": "node"
+  },
+  {
+    "command": "npm start",
+    "name": "Run npm start",
+    "request": "launch",
+    "type": "node-terminal"
+  },
+  {
+    "name": "Launch Program",
+    "program": "${workspaceFolder}/app.js",
+    "request": "launch",
+    "skipFiles": [
+      "<node_internals>/**"
+    ],
+    "type": "node"
+  },
+  {
+    "name": ".NET: Attach to Process",
+    "type": "coreclr",
+    "request": "attach",
+    "processId": "${command:pickProcess}",
+    "justMyCode": true
+  },
+  {
+    "name": ".NET: Launch (console)",
+    "type": "coreclr",
+    "request": "launch",
+    "preLaunchTask": "build",
+      # Replace the program path below with your project's output DLL if applicable
+      "program": "${workspaceFolder}/bin/Debug/net7.0/YourApp.dll",
+    "args": [],
+    "cwd": "${workspaceFolder}",
+    "stopAtEntry": false,
+    "console": "integratedTerminal",
+    "justMyCode": true
+  },
+  {
+    "name": "Website: Launch preciseliens.com",
+    "type": "coreclr",
+    "request": "launch",
+    "preLaunchTask": "build",
+    "program": "${workspaceFolder}/bin/Debug/net7.0/Preciseliens.Web.dll",
+    "args": [],
+    "cwd": "${workspaceFolder}",
+    "env": {
+      "ASPNETCORE_URLS": "https://preciseliens.com;http://localhost:5000"
+    },
+    "stopAtEntry": false,
+    "console": "integratedTerminal",
+    "justMyCode": true
+  }
+]
+}
+workbench.desktop.main.js:5137  POST https://127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js:5137
+(anonymous) @ workbench.desktop.main.js:5137
+(anonymous) @ workbench.desktop.main.js:5137
+(anonymous) @ workbench.desktop.main.js:5137
+EN @ workbench.desktop.main.js:5137
+e.fetchToggles @ workbench.desktop.main.js:5137
+(anonymous) @ workbench.desktop.main.js:5137
+workbench.desktop.main.js:4236 Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js:4236
+(anonymous) @ workbench.desktop.main.js:5137
+(anonymous) @ workbench.desktop.main.js:5137
+(anonymous) @ workbench.desktop.main.js:5137
+o @ workbench.desktop.main.js:5137
+Promise.then
+l @ workbench.desktop.main.js:5137
+(anonymous) @ workbench.desktop.main.js:5137
+EN @ workbench.desktop.main.js:5137
+e.fetchToggles @ workbench.desktop.main.js:5137
+(anonymous) @ workbench.desktop.main.js:5137
+workbench.desktop.main.js:4236 [AntigravityUnleashService] [object Object]
+  POST https://127.0.0.1:41309/proxy/unleash/frontend 404 (Not Found)
+(anonymous) @ workbench.desktop.main.js:5137
+(anonymous) @ workbench.desktop.main.js:5137
+(anonymous) @ workbench.desktop.main.js:5137
+(anonymous) @ workbench.desktop.main.js:5137
+EN @ workbench.desktop.main.js:5137
+e.fetchToggles @ workbench.desktop.main.js:5137
+(anonymous) @ workbench.desktop.main.js:5137
+ Unleash: Fetching feature toggles did not have an ok response
+console.error @ workbench.desktop.main.js:4236
+(anonymous) @ workbench.desktop.main.js:5137
+(anonymous) @ workbench.desktop.main.js:5137
+(anonymous) @ workbench.desktop.main.js:5137
+o @ workbench.desktop.main.js:5137
+Promise.then
+l @ workbench.desktop.main.js:5137
+(anonymous) @ workbench.desktop.main.js:5137
+EN @ workbench.desktop.main.js:5137
+e.fetchToggles @ workbench.desktop.main.js:5137
+(anonymous) @ workbench.desktop.main.js:5137
+ [AntigravityUnleashService] [object Object]
+
+
+    {
+      "name": "Attach",
+      "port": 9229,
+      "request": "attach",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    },
+    {
+      "name": "Launch Program",
+      "program": "${workspaceFolder}/app.js",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    },
+    {
+      "name": "Attach to Edge",
+      "port": 9222,
+      "request": "attach",
+      "type": "msedge",
+      "webRoot": "NETWORKBUSTER.COM"
+    },
+    {
+      "name": "Electron Main",
+      "program": "${workspaceFolder}/main.js",
+      "request": "launch",
+      "runtimeExecutable": "electron",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    },
+    {
+      "name": "eb013163cb73f4dc698d1454aca94da35aea2031",
+      "processId": "${command:PickProcess}",
+      "request": "attach",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    },
+    eb013163cb73f4dc698d1454aca94da35aea2031
+    {
+      "name": "Electron Main",
+      "program": "${workspaceFolder}/main.js",
+      "request": "launch",
+      "runtimeExecutable": "electron",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    },
+    {
+      "name": "Launch Program",
+      "program": "${workspaceFolder}/
+      PROGRAMS","request": "launch","skipFiles": ["<node_internals>/**"
+    ],
+    "type": "node"
+  },
+  {
+    "name": "Attach to Chrome",
+    "port": 9222,
+    "request": "attach",
+    "type": "chrome",
+    "webRoot": "${workspaceFolder}"
+  },
+  {
+    "name": "Launch Chrome",
+    "request": "launch",
+    "type": "chrome",
+    "url": "http://localhost:8080",
+    "webRoot": "${workspaceFolder}"
+  },
+  {
+    "name": "Launch Edge",
+    "request": "launch",
+    "type": "msedge",
+    "url": "http://localhost:8080",
+    "webRoot": "${workspaceFolder}"
+  },
+  {
+    "name": "Attach",
+    "port": 9229,
+    "request": "attach",
+    "skipFiles": [
+      "<node_internals>/**"
+    ],
+    "type": "node"
+  },
+  {
+    "address": "TCP/IP address of process to be debugged",
+    "localRoot": "${workspaceFolder}",
+    "name": "Attach to Remote",
+    "port": 9229,
+    "remoteRoot": "Absolute path to the remote directory containing the program",
+    "request": "attach",
+    "skipFiles": [
+      "<node_internals>/**"
+    ],
+    "type": "node"
+  },
+  {
+    "command": "npm start",
+    "name": "Run npm start",
+    "request": "launch",
+    "type": "node-terminal"
+  },
+  {
+    "name": "Launch Program",
+    "program": "${workspaceFolder}/app.js",
+    "request": "launch",
+    "skipFiles": [
+      "<node_internals>/**"
+    ],
+    "type": "node"
+  },
+  {
+    "name": ".NET: Attach to Process",
+    "type": "coreclr",
+    "request": "attach",
+    "processId": "${command:pickProcess}",
+    "justMyCode": true
+  },
+  {
+    "name": ".NET: Launch (console)",
+    "type": "coreclr",
+    "request": "launch",
+    "preLaunchTask": "build",
+      # Replace the program path below with your project's output DLL if applicable
+      "program": "${workspaceFolder}/bin/Debug/net7.0/YourApp.dll",
+    "args": [],
+    "cwd": "${workspaceFolder}",
+    "stopAtEntry": false,
+    "console": "integratedTerminal",
+    "justMyCode": true
+  },
+  {
+    "name": "Website: Launch preciseliens.com",
+    "type": "coreclr",
+    "request": "launch",
+    "preLaunchTask": "build",
+    "program": "${workspaceFolder}/bin/Debug/net7.0/Preciseliens.Web.dll",
+    "args": [],
+    "cwd": "${workspaceFolder}",
+    "env": {
+      "ASPNETCORE_URLS": "https://preciseliens.com;http://localhost:5000"
+    },
+    "stopAtEntry": false,
+    "console": "integratedTerminal",
+    "justMyCode": true
+  }
+]
+}
