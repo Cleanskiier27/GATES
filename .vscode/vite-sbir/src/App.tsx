@@ -16,7 +16,7 @@ function App() {
     setIsDeauthing(true);
     setSystemStatus('DEAUTH IN PROGRESS...');
     
-    fetch('http://localhost:8000/api/deauth', {
+    fetch('http://localhost:4432/api/deauth', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ partition_id: 'secure-0x1a' })
@@ -34,7 +34,7 @@ function App() {
 
   useEffect(() => {
     // Initial fetches
-    fetch('http://localhost:8000/api/bom')
+    fetch('http://localhost:4432/api/bom')
       .then(res => res.json())
       .then(data => setBom(data.components))
       .catch(err => console.error("Failed to fetch BOM", err));
@@ -48,7 +48,7 @@ function App() {
   useEffect(() => {
     // Polling Telemetry
     const interval = setInterval(() => {
-      fetch('http://localhost:8000/api/telemetry')
+      fetch('http://localhost:4432/api/telemetry')
         .then(res => res.json())
         .then(data => {
             if (!isDeauthing) {
