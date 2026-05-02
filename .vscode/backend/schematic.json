@@ -1,0 +1,41 @@
+{
+  "name": "NASA SBIR Security Payload V1.2",
+  "revision": "B",
+  "bom": [
+    {
+      "id": "U1",
+      "type": "CPU Core",
+      "part_number": "ARM-CM4-SEC",
+      "position": [-2, 0, -1],
+      "status": "active"
+    },
+    {
+      "id": "U2",
+      "type": "Preciseliens Module",
+      "part_number": "PRCS-99A",
+      "position": [2, 0, -1],
+      "status": "secure"
+    },
+    {
+      "id": "U3",
+      "type": "NPU Engine",
+      "part_number": "NPU-TX2",
+      "position": [0, 0, 1.5],
+      "status": "active"
+    },
+    {
+      "id": "U4",
+      "type": "Crypto Coprocessor",
+      "part_number": "SEC-880",
+      "position": [1.5, 0, 1.5],
+      "status": "active"
+    },
+    {
+      "id": "U5",
+      "type": "Telemetry Tx",
+      "part_number": "RF-33X",
+      "position": [-1.5, 0, 1.5],
+      "status": "transmitting"
+    }
+  ]
+}
