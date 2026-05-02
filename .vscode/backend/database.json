@@ -1,0 +1,32 @@
+{
+  "sheets": {
+    "GlyphProfiling": [
+      {"id": "GLYPH-01", "type": "Spectral", "integrity": 0.94, "folder": "ROOT/SPECTRAL_LATTICE", "agent": "FREQ-A"},
+      {"id": "GLYPH-02", "type": "Temporal", "integrity": 0.82, "folder": "ROOT/TEMPORAL_LATTICE", "agent": "NODE-AUG-B"},
+      {"id": "GLYPH-03", "type": "Spatial", "integrity": 0.05, "folder": "ROOT/DEGRADED_LATTICE", "agent": "RECYCLE-C"},
+      {"id": "GLYPH-04", "type": "Neural", "integrity": 0.98, "folder": "ROOT/NEURAL_LATTICE", "agent": "FREQ-D"}
+    ],
+    "LatticeFolders": [
+      {"path": "ROOT/SPECTRAL_LATTICE", "status": "ACTIVE", "capacity": "45%"},
+      {"path": "ROOT/TEMPORAL_LATTICE", "status": "SYNCING", "capacity": "12%"},
+      {"path": "ROOT/DEGRADED_LATTICE", "status": "RECYCLING", "capacity": "98%"},
+      {"path": "ROOT/NEURAL_LATTICE", "status": "ACTIVE", "capacity": "77%"}
+    ],
+    "LatticeHierarchy": {
+      "Root_Lattice": {
+        "Region_Alpha": [
+          {"id": "PX-A1", "status": "STABLE", "freq": "442Hz"},
+          {"id": "PX-A2", "status": "STABLE", "freq": "448Hz"},
+          {"id": "PX-A3", "status": "SYNCING", "freq": "450Hz"}
+        ],
+        "Region_Beta": [
+          {"id": "PX-B1", "status": "STABLE", "freq": "460Hz"},
+          {"id": "PX-B2", "status": "DEGRADED", "freq": "410Hz"}
+        ],
+        "Region_Gamma": [
+          {"id": "PX-G1", "status": "STABLE", "freq": "442Hz"}
+        ]
+      }
+    }
+  }
+}

@@ -36,6 +36,7 @@ function App() {
   const [isBomOpen, setIsBomOpen] = useState(false);
   const [diagnosticsActive, setDiagnosticsActive] = useState(false);
   const [isSyncing, setIsSyncing] = useState(false);
+  const [shaInput, setShaInput] = useState('');
 
   const runDiagnostics = () => {
     setDiagnosticsActive(true);
@@ -272,7 +273,7 @@ function App() {
                    <div className={`log-entry ${isDeauthing ? 'text-alert' : ''}`}>[09:45:02] PARTITION secure-0x1a MONITORING ACTIVE</div>
                    {isDeauthing && <div className="log-entry text-alert blink">[10:12:45] INITIATING EXTERNAL DEAUTH SEQUENCE...</div>}
                 </div>
-                <div className="partition-card p-6 border border-white/10 rounded-lg bg-black/20">
+                <div className="partition-card p-6 border border-white/10 rounded-lg bg-black/20 mb-6">
                    <div className="flex justify-between items-center">
                       <div>
                          <h3 className="text-xl font-bold mb-1">Partition: secure-0x1a</h3>
@@ -281,6 +282,41 @@ function App() {
                       <button className="btn" onClick={handleDeauth}>
                          {isDeauthing ? 'DEAUTHING...' : 'Force Deauth'}
                       </button>
+                   </div>
+                </div>
+
+                {/* SHA Bit Detection Analyzer */}
+                <div className="partition-card p-6 border border-white/10 rounded-lg bg-black/20 mt-6">
+                   <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
+                     <ShieldAlert className="text-[#00f0ff]" size={20} />
+                     SHA Bit Detection Analyzer
+                   </h3>
+                   <div className="flex flex-col gap-3">
+                     <input 
+                       type="text" 
+                       value={shaInput}
+                       onChange={(e) => setShaInput(e.target.value)}
+                       placeholder="Enter hash string (e.g. e3b0c442...)" 
+                       className="p-3 bg-black/40 border border-white/20 rounded text-white font-mono text-sm focus:border-[#00f0ff] outline-none transition-colors w-full"
+                     />
+                     <div className="flex justify-between items-center mt-2 p-3 bg-white/5 rounded border border-white/5">
+                        <span className="text-sm text-muted">Detected Architecture:</span>
+                        <span className="font-bold text-white tracking-wider" style={{ color: shaInput ? 'var(--accent-primary)' : 'inherit' }}>
+                           {shaInput ? (() => {
+                              const cleanHash = shaInput.trim().toLowerCase();
+                              if (!/^[0-9a-f]+$/.test(cleanHash)) return "INVALID HEX STRING";
+                              const bitLength = cleanHash.length * 4;
+                              switch(bitLength) {
+                                case 160: return "SHA-1 (160-BIT)";
+                                case 224: return "SHA-224 (224-BIT)";
+                                case 256: return "SHA-256 (256-BIT)";
+                                case 384: return "SHA-384 (384-BIT)";
+                                case 512: return "SHA-512 (512-BIT)";
+                                default: return `UNKNOWN (${bitLength}-BIT)`;
+                              }
+                           })() : "AWAITING INPUT"}
+                        </span>
+                     </div>
                    </div>
                 </div>
              </div>
@@ -329,13 +365,13 @@ function App() {
                    
                    <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
                       <p>
-                         <strong className="text-white">HOUSTON, TX</strong> — NetworkBuster today announced significant advancements in their ongoing NASA SBIR Ignite project. The latest system deployment features an interactive 3D PCB schematic viewer equipped with real-time telemetry, precision yield mapping capabilities, and aerospace-grade security partitions.
+                         <strong className="text-white">HOUSTON, TX</strong> — NetworkBuster today announced significant advancements in their ongoing NASA SBIR Ignite project. The latest system deployment features an interactive 3D PCB schematic viewer equipped with real-time telemetry, precision yield mapping capabilities, and aerospace-grade security partitions. Crucially, the system introduces an agent for each pixel and region, representing a key milestone that directly ties into earlier work on the Network Buster OS and its advanced agent management.
                       </p>
                       <p>
                          "This deployment marks a new era in secure, real-time payload visualization," stated the lead engineering team at NetworkBuster. "By integrating advanced diagnostic controls with immediate network synchronization, we are setting a new standard for high-fidelity aerospace telemetry systems."
                       </p>
                       <p>
-                         The newly launched <span className="font-bold" style={{ color: 'var(--accent-primary)' }}>Preciseliens</span> framework provides seamless integration with existing network infrastructure. Key features of the new release include state-of-the-art automated security partition management, real-time hardware telemetry streams, and dynamic live BOM tracking—all accessible through a unified, high-performance interface.
+                         The newly launched <span className="font-bold" style={{ color: 'var(--accent-primary)' }}>Preciseliens</span> framework prioritizes secure, real-time payload visualization. It boasts seamless integration with existing network infrastructure, automated security partition management, real-time hardware telemetry streams, and live BOM tracking, which are all accessible through a unified high-performance interface.
                       </p>
                       <p>
                          The application is currently synchronized with the NetworkBuster master branch and is entering active deployment testing for the next phase of the SBIR Ignite program.
