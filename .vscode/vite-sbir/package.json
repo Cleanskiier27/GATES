@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:networkbuster": "tsc -b && vite build && echo 'Deploying to networkbuster.net.git...' && git push https://github.com/NetworkBuster/networkbuster.net.git",
     "lint": "eslint .",
     "preview": "vite preview"
   },

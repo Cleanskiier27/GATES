@@ -1,41 +1,90 @@
 {
-  "name": "NASA SBIR Security Payload V1.2",
-  "revision": "B",
+  "name": "Pico Macro Keyboard AI Placement Example",
+  "revision": "0v",
   "bom": [
     {
       "id": "U1",
-      "type": "CPU Core",
-      "part_number": "ARM-CM4-SEC",
-      "position": [-2, 0, -1],
+      "type": "MCU Board",
+      "part_number": "RPI-PICO-RP2040",
+      "position": [0, 0, -2],
       "status": "active"
     },
     {
-      "id": "U2",
-      "type": "Preciseliens Module",
-      "part_number": "PRCS-99A",
-      "position": [2, 0, -1],
+      "id": "SW1",
+      "type": "Mech Switch",
+      "part_number": "CHERRY-MX-RED",
+      "position": [-2, 0, 0],
       "status": "secure"
     },
     {
-      "id": "U3",
-      "type": "NPU Engine",
-      "part_number": "NPU-TX2",
-      "position": [0, 0, 1.5],
+      "id": "SW2",
+      "type": "Mech Switch",
+      "part_number": "CHERRY-MX-RED",
+      "position": [0, 0, 0],
+      "status": "secure"
+    },
+    {
+      "id": "SW3",
+      "type": "Mech Switch",
+      "part_number": "CHERRY-MX-RED",
+      "position": [2, 0, 0],
+      "status": "secure"
+    },
+    {
+      "id": "SW4",
+      "type": "Mech Switch",
+      "part_number": "CHERRY-MX-RED",
+      "position": [-2, 0, 2],
+      "status": "secure"
+    },
+    {
+      "id": "SW5",
+      "type": "Mech Switch",
+      "part_number": "CHERRY-MX-RED",
+      "position": [0, 0, 2],
+      "status": "secure"
+    },
+    {
+      "id": "SW6",
+      "type": "Mech Switch",
+      "part_number": "CHERRY-MX-RED",
+      "position": [2, 0, 2],
+      "status": "secure"
+    },
+    {
+      "id": "ENC1",
+      "type": "Rotary Encoder",
+      "part_number": "PEC11R-4215F-S0024",
+      "position": [-3, 0, -2],
       "status": "active"
     },
     {
-      "id": "U4",
-      "type": "Crypto Coprocessor",
-      "part_number": "SEC-880",
-      "position": [1.5, 0, 1.5],
-      "status": "active"
-    },
-    {
-      "id": "U5",
-      "type": "Telemetry Tx",
-      "part_number": "RF-33X",
-      "position": [-1.5, 0, 1.5],
+      "id": "DISP1",
+      "type": "OLED Display",
+      "part_number": "SSD1306-128x32",
+      "position": [3, 0, -2],
       "status": "transmitting"
+    },
+    {
+      "id": "LED1",
+      "type": "RGB LED",
+      "part_number": "WS2812B",
+      "position": [-2, 0, 1],
+      "status": "active"
+    },
+    {
+      "id": "LED2",
+      "type": "RGB LED",
+      "part_number": "WS2812B",
+      "position": [0, 0, 1],
+      "status": "active"
+    },
+    {
+      "id": "LED3",
+      "type": "RGB LED",
+      "part_number": "WS2812B",
+      "position": [2, 0, 1],
+      "status": "active"
     }
   ]
 }

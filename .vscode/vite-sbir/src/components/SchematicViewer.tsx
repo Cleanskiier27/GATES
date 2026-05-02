@@ -3,32 +3,52 @@ import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, Environment, ContactShadows, Text, Edges } from '@react-three/drei';
 import * as THREE from 'three';
 
-const Chip = ({ position, label, color = "#202230" }: { position: [number, number, number], label: string, color?: string }) => {
+const Chip = ({ position, label, color = "#202230", status }: { position: [number, number, number], label: string, color?: string, status?: string }) => {
   const meshRef = useRef<THREE.Mesh>(null);
+  const isActive = status === 'active' || status === 'secure' || status === 'transmitting';
+  const statusColor = status === 'secure' ? '#7000ff' : status === 'transmitting' ? '#ff3333' : '#00f0ff';
   
   return (
     <group position={position}>
       <mesh ref={meshRef} position={[0, 0.25, 0]}>
-        <boxGeometry args={[1.5, 0.5, 1.5]} />
-        <meshStandardMaterial color={color} roughness={0.2} metalness={0.8} />
-        <Edges scale={1} threshold={15} color="#00f0ff" />
+        <boxGeometry args={[1.2, 0.4, 1.2]} />
+        <meshStandardMaterial color={color} roughness={0.1} metalness={0.9} />
+        <Edges scale={1} threshold={15} color={isActive ? statusColor : "#444"} />
       </mesh>
+      {/* Pins */}
+      {[...Array(8)].map((_, i) => (
+        <mesh key={i} position={[i < 4 ? -0.7 : 0.7, 0.1, (i % 4) * 0.3 - 0.45]}>
+           <boxGeometry args={[0.2, 0.05, 0.1]} />
+           <meshStandardMaterial color="#888" metalness={1} />
+        </mesh>
+      ))}
       <Text 
         position={[0, 0.51, 0]} 
         rotation={[-Math.PI / 2, 0, 0]} 
-        fontSize={0.2} 
-        color="#00f0ff"
+        fontSize={0.15} 
+        font="/fonts/Outfit-Bold.ttf"
+        color={isActive ? statusColor : "#888"}
         anchorX="center"
         anchorY="middle"
       >
         {label}
       </Text>
+      {isActive && (
+        <mesh position={[0, 0.2, 0]}>
+           <boxGeometry args={[1.3, 0.1, 1.3]} />
+           <meshBasicMaterial color={statusColor} transparent opacity={0.1} />
+        </mesh>
+      )}
     </group>
   );
+};
+
 export interface ComponentData {
   id: string;
   type: string;
   position: [number, number, number];
+  status?: string;
+  part_number?: string;
 }
 
 const Board = ({ isDeauthing, components }: { isDeauthing: boolean, components: ComponentData[] }) => {
@@ -36,8 +56,8 @@ const Board = ({ isDeauthing, components }: { isDeauthing: boolean, components: 
 
   useFrame((state) => {
     if (boardRef.current) {
-      boardRef.current.rotation.y = Math.sin(state.clock.elapsedTime * 0.2) * 0.1;
-      boardRef.current.rotation.z = Math.cos(state.clock.elapsedTime * 0.2) * 0.05;
+      boardRef.current.rotation.y = Math.sin(state.clock.elapsedTime * 0.1) * 0.05;
+      boardRef.current.rotation.z = Math.cos(state.clock.elapsedTime * 0.1) * 0.02;
     }
   });
 
@@ -45,26 +65,38 @@ const Board = ({ isDeauthing, components }: { isDeauthing: boolean, components: 
     <group ref={boardRef}>
       {/* Main PCB Board */}
       <mesh position={[0, -0.1, 0]}>
-        <boxGeometry args={[8, 0.2, 6]} />
-        <meshStandardMaterial color={isDeauthing ? "#2a0a0a" : "#0a0f1a"} roughness={0.5} metalness={0.5} />
-        <Edges scale={1} threshold={15} color={isDeauthing ? "#ff0000" : "#7000ff"} />
+        <boxGeometry args={[10, 0.2, 8]} />
+        <meshStandardMaterial color={isDeauthing ? "#1a0505" : "#050810"} roughness={0.3} metalness={0.7} />
+        <Edges scale={1} threshold={15} color={isDeauthing ? "#ff0000" : "#222"} />
       </mesh>
+
+      {/* Grid pattern on board */}
+      <gridHelper args={[10, 20, "#111", "#111"]} position={[0, 0.01, 0]} rotation={[0, 0, 0]} />
 
       {/* Components */}
       {components.map((comp) => (
-        <Chip key={comp.id} position={comp.position} label={comp.type} color="#111827" />
+        <Chip key={comp.id} position={comp.position} label={comp.type} color="#111827" status={comp.status} />
       ))}
 
-      {/* Traces */}
-      <group position={[0, 0.01, 0]}>
-        <mesh position={[-1, 0, -1]}>
-          <boxGeometry args={[2, 0.02, 0.1]} />
-          <meshBasicMaterial color="#00f0ff" />
+      {/* Complex Traces */}
+      <group position={[0, 0.02, 0]}>
+        {/* Core to NPU */}
+        <mesh position={[-1, 0, 0.25]}>
+          <boxGeometry args={[2, 0.01, 0.05]} />
+          <meshBasicMaterial color={isDeauthing ? "#440000" : "#00f0ff"} transparent opacity={0.6} />
         </mesh>
+        {/* NPU to Preciseliens */}
         <mesh position={[1, 0, 0.25]}>
-          <boxGeometry args={[0.1, 0.02, 2.5]} />
-          <meshBasicMaterial color="#00f0ff" />
+          <boxGeometry args={[0.05, 0.01, 2.5]} />
+          <meshBasicMaterial color={isDeauthing ? "#440000" : "#7000ff"} transparent opacity={0.6} />
         </mesh>
+        {/* Decorative Vias */}
+        {[...Array(20)].map((_, i) => (
+          <mesh key={i} position={[Math.sin(i) * 4, 0, Math.cos(i) * 3]}>
+             <cylinderGeometry args={[0.05, 0.05, 0.05, 8]} />
+             <meshStandardMaterial color="#885500" metalness={1} />
+          </mesh>
+        ))}
       </group>
     </group>
   );
