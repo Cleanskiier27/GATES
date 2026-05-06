@@ -6,7 +6,7 @@ import { Cpu, Activity, ShieldAlert, Zap, AlertTriangle, Newspaper } from 'lucid
 function App() {
   const [isDeauthing, setIsDeauthing] = useState(false);
   const [systemStatus, setSystemStatus] = useState('ONLINE - SECURE');
-  const [bom, setBom] = useState([]);
+  const [bom, setBom] = useState<any[]>([]);
   const [telemetry, setTelemetry] = useState({
     core_temp: 42.8,
     preciseliens_model: "ACTIVE",
