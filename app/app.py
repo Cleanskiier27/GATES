@@ -2,9 +2,19 @@ from flask import Flask, jsonify, request
 from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
 from sqlalchemy import func
-from datetime import datetime
+from datetime import datetime, timezone
+import json
+import os
+from urllib.error import URLError
+from urllib.request import Request, urlopen
 
 PORT = 4288
+APP_VERSION = "1.0.0"
+TELEMETRY_ENDPOINT = os.getenv("GATES_TELEMETRY_URL", "http://127.0.0.1:4432/api/telemetry")
+TELEMETRY_TIMEOUT = float(os.getenv("GATES_TELEMETRY_TIMEOUT_SECONDS", "2"))
+STATUS_PENDING = "pending"
+ALERT_TELEMETRY_UNAVAILABLE = "Telemetry stream is unavailable; monitoring data may be stale."
+ALERT_PENDING_EXPOSURE_TEMPLATE = "Pending ledger exposure detected: {amount:.2f} USD."
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///gates.db'
@@ -62,6 +72,21 @@ class ProjectLedger(db.Model):
             "created_at": self.created_at.isoformat(),
             "updated_at": self.updated_at.isoformat(),
         }
+
+
+def fetch_telemetry_snapshot():
+    """Fetches a live telemetry snapshot from the FastAPI telemetry hub."""
+    req = Request(
+        TELEMETRY_ENDPOINT,
+        headers={"Accept": "application/json", "User-Agent": f"GATES-Ledger-Docs-Bot/{APP_VERSION}"},
+    )
+    try:
+        with urlopen(req, timeout=TELEMETRY_TIMEOUT) as response:
+            payload = response.read().decode("utf-8")
+            return json.loads(payload), None
+    except (URLError, json.JSONDecodeError) as exc:
+        app.logger.warning("Telemetry fetch failed: %s", exc)
+        return None, "Unable to retrieve live telemetry at this time."
 
 @app.route('/')
 def home():
@@ -123,7 +148,7 @@ def api_ledger_list():
         "ledger_entries": [entry.to_dict() for entry in entries],
         "total": len(entries),
         "service": "GATES Ledger Flex",
-        "version": "1.0.0"
+        "version": APP_VERSION
     })
 
 
@@ -177,7 +202,67 @@ def api_ledger_summary():
         "summary": summary,
         "grand_total": grand_total,
         "service": "GATES Ledger Flex",
-        "version": "1.0.0"
+        "version": APP_VERSION
+    })
+
+
+@app.route('/api/ledger/docs-bot', methods=['GET'])
+def api_ledger_docs_bot():
+    """Telemetry-powered docs bot for real-time ledger monitoring insights."""
+    telemetry, telemetry_error = fetch_telemetry_snapshot()
+    if telemetry is not None and not isinstance(telemetry, dict):
+        app.logger.warning("Unexpected telemetry payload type: %s", type(telemetry).__name__)
+        telemetry = None
+        telemetry_error = "Telemetry payload format is invalid."
+
+    total_entries = db.session.query(func.count(ProjectLedger.id)).scalar()
+    grand_total = db.session.query(func.coalesce(func.sum(ProjectLedger.amount), 0.0)).scalar()
+
+    status_rows = db.session.query(
+        ProjectLedger.status,
+        func.count(ProjectLedger.id).label("count"),
+        func.coalesce(func.sum(ProjectLedger.amount), 0.0).label("total_amount"),
+    ).group_by(ProjectLedger.status).all()
+    status_summary = {}
+    for row in status_rows:
+        status_summary[row.status] = {"count": row.count, "total_amount": row.total_amount}
+
+    pending_total = status_summary.get(STATUS_PENDING, {}).get("total_amount", 0.0)
+    telemetry_state = "AVAILABLE" if telemetry else "UNAVAILABLE"
+    alerts = []
+    if telemetry_error:
+        alerts.append(ALERT_TELEMETRY_UNAVAILABLE)
+    if pending_total > 0:
+        alerts.append(ALERT_PENDING_EXPOSURE_TEMPLATE.format(amount=pending_total))
+
+    docs_sections = [
+        f"Ledger currently tracks {total_entries} entries totaling {grand_total:.2f} USD.",
+        f"Telemetry stream status: {telemetry_state}.",
+    ]
+    core_temp = telemetry.get("core_temp") if telemetry else None
+    if isinstance(core_temp, (int, float)):
+        docs_sections.append(f"Current core temperature reading: {core_temp:.1f}.")
+
+    return jsonify({
+        "service": "GATES Ledger Docs Bot",
+        "version": APP_VERSION,
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "telemetry_endpoint": TELEMETRY_ENDPOINT,
+        "telemetry": {
+            "status": telemetry_state,
+            "data": telemetry,
+            "error": telemetry_error,
+        },
+        "ledger_overview": {
+            "total_entries": total_entries,
+            "grand_total": grand_total,
+            "status_summary": status_summary,
+        },
+        "docs_bot": {
+            "summary": " ".join(docs_sections),
+            "alerts": alerts,
+            "monitoring_mode": "real-time" if telemetry else "degraded",
+        }
     })
 
 if __name__ == '__main__':
