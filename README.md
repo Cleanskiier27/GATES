@@ -66,6 +66,9 @@ Creates a new project ledger entry. Required fields: `project_name`, `category`,
 ### Ledger Flex Summary (`GET /api/ledger/summary`)
 Returns aggregated totals by category across all ledger entries.
 
+### Ledger Docs Bot (`GET /api/ledger/docs-bot`)
+Uses live telemetry plus ledger state to generate real-time monitoring documentation with alerts and status summaries.
+
 ---
 
 ## 🛡️ Firewall & Security

@@ -3,8 +3,13 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
 from sqlalchemy import func
 from datetime import datetime
+import json
+import os
+from urllib.error import URLError
+from urllib.request import Request, urlopen
 
 PORT = 4288
+TELEMETRY_ENDPOINT = os.getenv("GATES_TELEMETRY_URL", "http://127.0.0.1:4432/api/telemetry")
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///gates.db'
@@ -62,6 +67,20 @@ class ProjectLedger(db.Model):
             "created_at": self.created_at.isoformat(),
             "updated_at": self.updated_at.isoformat(),
         }
+
+
+def fetch_telemetry_snapshot():
+    """Fetches a live telemetry snapshot from the FastAPI telemetry hub."""
+    req = Request(
+        TELEMETRY_ENDPOINT,
+        headers={"Accept": "application/json", "User-Agent": "GATES-Ledger-Docs-Bot/1.0"},
+    )
+    try:
+        with urlopen(req, timeout=2) as response:
+            payload = response.read().decode("utf-8")
+            return json.loads(payload), None
+    except (URLError, TimeoutError, json.JSONDecodeError) as exc:
+        return None, str(exc)
 
 @app.route('/')
 def home():
@@ -178,6 +197,53 @@ def api_ledger_summary():
         "grand_total": grand_total,
         "service": "GATES Ledger Flex",
         "version": "1.0.0"
+    })
+
+
+@app.route('/api/ledger/docs-bot', methods=['GET'])
+def api_ledger_docs_bot():
+    """Telemetry-powered docs bot for real-time ledger monitoring insights."""
+    telemetry, telemetry_error = fetch_telemetry_snapshot()
+    entries = ProjectLedger.query.all()
+
+    grand_total = sum(entry.amount for entry in entries)
+    status_summary = {}
+    for entry in entries:
+        bucket = status_summary.setdefault(entry.status, {"count": 0, "total_amount": 0.0})
+        bucket["count"] += 1
+        bucket["total_amount"] += entry.amount
+
+    pending_total = status_summary.get("pending", {}).get("total_amount", 0.0)
+    telemetry_state = "AVAILABLE" if telemetry else "UNAVAILABLE"
+    alerts = []
+    if telemetry_error:
+        alerts.append("Telemetry stream is unavailable; monitoring data may be stale.")
+    if pending_total > 0:
+        alerts.append(f"Pending ledger exposure detected: {pending_total:.2f} USD.")
+
+    docs_sections = [
+        f"Ledger currently tracks {len(entries)} entries totaling {grand_total:.2f} USD.",
+        f"Telemetry stream status: {telemetry_state}.",
+    ]
+    if telemetry and "core_temp" in telemetry:
+        docs_sections.append(f"Current core temperature reading: {telemetry['core_temp']}.")
+
+    return jsonify({
+        "service": "GATES Ledger Docs Bot",
+        "version": "1.0.0",
+        "generated_at": datetime.utcnow().isoformat(),
+        "telemetry_endpoint": TELEMETRY_ENDPOINT,
+        "telemetry": telemetry if telemetry else {"status": telemetry_state, "error": telemetry_error},
+        "ledger_overview": {
+            "total_entries": len(entries),
+            "grand_total": grand_total,
+            "status_summary": status_summary,
+        },
+        "docs_bot": {
+            "summary": " ".join(docs_sections),
+            "alerts": alerts,
+            "monitoring_mode": "real-time" if telemetry else "degraded",
+        }
     })
 
 if __name__ == '__main__':
