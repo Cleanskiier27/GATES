@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request
 from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
 from sqlalchemy import func
-from datetime import datetime
+from datetime import datetime, timezone
 import json
 import os
 from urllib.error import URLError
@@ -10,6 +10,7 @@ from urllib.request import Request, urlopen
 
 PORT = 4288
 TELEMETRY_ENDPOINT = os.getenv("GATES_TELEMETRY_URL", "http://127.0.0.1:4432/api/telemetry")
+TELEMETRY_TIMEOUT = float(os.getenv("GATES_TELEMETRY_TIMEOUT_SECONDS", "2"))
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///gates.db'
@@ -76,11 +77,12 @@ def fetch_telemetry_snapshot():
         headers={"Accept": "application/json", "User-Agent": "GATES-Ledger-Docs-Bot/1.0"},
     )
     try:
-        with urlopen(req, timeout=2) as response:
+        with urlopen(req, timeout=TELEMETRY_TIMEOUT) as response:
             payload = response.read().decode("utf-8")
             return json.loads(payload), None
     except (URLError, TimeoutError, json.JSONDecodeError) as exc:
-        return None, str(exc)
+        app.logger.warning("Telemetry fetch failed: %s", exc)
+        return None, "Unable to retrieve live telemetry at this time."
 
 @app.route('/')
 def home():
@@ -204,14 +206,17 @@ def api_ledger_summary():
 def api_ledger_docs_bot():
     """Telemetry-powered docs bot for real-time ledger monitoring insights."""
     telemetry, telemetry_error = fetch_telemetry_snapshot()
-    entries = ProjectLedger.query.all()
+    total_entries = db.session.query(func.count(ProjectLedger.id)).scalar() or 0
+    grand_total = db.session.query(func.coalesce(func.sum(ProjectLedger.amount), 0.0)).scalar() or 0.0
 
-    grand_total = sum(entry.amount for entry in entries)
+    status_rows = db.session.query(
+        ProjectLedger.status,
+        func.count(ProjectLedger.id).label("count"),
+        func.coalesce(func.sum(ProjectLedger.amount), 0.0).label("total_amount"),
+    ).group_by(ProjectLedger.status).all()
     status_summary = {}
-    for entry in entries:
-        bucket = status_summary.setdefault(entry.status, {"count": 0, "total_amount": 0.0})
-        bucket["count"] += 1
-        bucket["total_amount"] += entry.amount
+    for row in status_rows:
+        status_summary[row.status] = {"count": row.count, "total_amount": row.total_amount}
 
     pending_total = status_summary.get("pending", {}).get("total_amount", 0.0)
     telemetry_state = "AVAILABLE" if telemetry else "UNAVAILABLE"
@@ -222,20 +227,25 @@ def api_ledger_docs_bot():
         alerts.append(f"Pending ledger exposure detected: {pending_total:.2f} USD.")
 
     docs_sections = [
-        f"Ledger currently tracks {len(entries)} entries totaling {grand_total:.2f} USD.",
+        f"Ledger currently tracks {total_entries} entries totaling {grand_total:.2f} USD.",
         f"Telemetry stream status: {telemetry_state}.",
     ]
-    if telemetry and "core_temp" in telemetry:
-        docs_sections.append(f"Current core temperature reading: {telemetry['core_temp']}.")
+    core_temp = telemetry.get("core_temp") if telemetry else None
+    if isinstance(core_temp, (int, float)):
+        docs_sections.append(f"Current core temperature reading: {core_temp:.1f}.")
 
     return jsonify({
         "service": "GATES Ledger Docs Bot",
         "version": "1.0.0",
-        "generated_at": datetime.utcnow().isoformat(),
+        "generated_at": datetime.now(timezone.utc).isoformat(),
         "telemetry_endpoint": TELEMETRY_ENDPOINT,
-        "telemetry": telemetry if telemetry else {"status": telemetry_state, "error": telemetry_error},
+        "telemetry": {
+            "status": telemetry_state,
+            "data": telemetry,
+            "error": telemetry_error,
+        },
         "ledger_overview": {
-            "total_entries": len(entries),
+            "total_entries": total_entries,
             "grand_total": grand_total,
             "status_summary": status_summary,
         },
