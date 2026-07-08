@@ -9,8 +9,12 @@ from urllib.error import URLError
 from urllib.request import Request, urlopen
 
 PORT = 4288
+APP_VERSION = "1.0.0"
 TELEMETRY_ENDPOINT = os.getenv("GATES_TELEMETRY_URL", "http://127.0.0.1:4432/api/telemetry")
 TELEMETRY_TIMEOUT = float(os.getenv("GATES_TELEMETRY_TIMEOUT_SECONDS", "2"))
+STATUS_PENDING = "pending"
+ALERT_TELEMETRY_UNAVAILABLE = "Telemetry stream is unavailable; monitoring data may be stale."
+ALERT_PENDING_EXPOSURE_TEMPLATE = "Pending ledger exposure detected: {amount:.2f} USD."
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///gates.db'
@@ -74,13 +78,13 @@ def fetch_telemetry_snapshot():
     """Fetches a live telemetry snapshot from the FastAPI telemetry hub."""
     req = Request(
         TELEMETRY_ENDPOINT,
-        headers={"Accept": "application/json", "User-Agent": "GATES-Ledger-Docs-Bot/1.0"},
+        headers={"Accept": "application/json", "User-Agent": f"GATES-Ledger-Docs-Bot/{APP_VERSION}"},
     )
     try:
         with urlopen(req, timeout=TELEMETRY_TIMEOUT) as response:
             payload = response.read().decode("utf-8")
             return json.loads(payload), None
-    except (URLError, TimeoutError, json.JSONDecodeError) as exc:
+    except (URLError, json.JSONDecodeError) as exc:
         app.logger.warning("Telemetry fetch failed: %s", exc)
         return None, "Unable to retrieve live telemetry at this time."
 
@@ -144,7 +148,7 @@ def api_ledger_list():
         "ledger_entries": [entry.to_dict() for entry in entries],
         "total": len(entries),
         "service": "GATES Ledger Flex",
-        "version": "1.0.0"
+        "version": APP_VERSION
     })
 
 
@@ -198,7 +202,7 @@ def api_ledger_summary():
         "summary": summary,
         "grand_total": grand_total,
         "service": "GATES Ledger Flex",
-        "version": "1.0.0"
+        "version": APP_VERSION
     })
 
 
@@ -206,8 +210,13 @@ def api_ledger_summary():
 def api_ledger_docs_bot():
     """Telemetry-powered docs bot for real-time ledger monitoring insights."""
     telemetry, telemetry_error = fetch_telemetry_snapshot()
-    total_entries = db.session.query(func.count(ProjectLedger.id)).scalar() or 0
-    grand_total = db.session.query(func.coalesce(func.sum(ProjectLedger.amount), 0.0)).scalar() or 0.0
+    if telemetry is not None and not isinstance(telemetry, dict):
+        app.logger.warning("Unexpected telemetry payload type: %s", type(telemetry).__name__)
+        telemetry = None
+        telemetry_error = "Telemetry payload format is invalid."
+
+    total_entries = db.session.query(func.count(ProjectLedger.id)).scalar()
+    grand_total = db.session.query(func.coalesce(func.sum(ProjectLedger.amount), 0.0)).scalar()
 
     status_rows = db.session.query(
         ProjectLedger.status,
@@ -218,13 +227,13 @@ def api_ledger_docs_bot():
     for row in status_rows:
         status_summary[row.status] = {"count": row.count, "total_amount": row.total_amount}
 
-    pending_total = status_summary.get("pending", {}).get("total_amount", 0.0)
+    pending_total = status_summary.get(STATUS_PENDING, {}).get("total_amount", 0.0)
     telemetry_state = "AVAILABLE" if telemetry else "UNAVAILABLE"
     alerts = []
     if telemetry_error:
-        alerts.append("Telemetry stream is unavailable; monitoring data may be stale.")
+        alerts.append(ALERT_TELEMETRY_UNAVAILABLE)
     if pending_total > 0:
-        alerts.append(f"Pending ledger exposure detected: {pending_total:.2f} USD.")
+        alerts.append(ALERT_PENDING_EXPOSURE_TEMPLATE.format(amount=pending_total))
 
     docs_sections = [
         f"Ledger currently tracks {total_entries} entries totaling {grand_total:.2f} USD.",
@@ -236,7 +245,7 @@ def api_ledger_docs_bot():
 
     return jsonify({
         "service": "GATES Ledger Docs Bot",
-        "version": "1.0.0",
+        "version": APP_VERSION,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "telemetry_endpoint": TELEMETRY_ENDPOINT,
         "telemetry": {
