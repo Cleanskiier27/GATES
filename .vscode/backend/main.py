@@ -55,16 +55,12 @@ async def deauth_partition(request: DeauthRequest, background_tasks: BackgroundT
     background_tasks.add_task(process_deauth, request.partition_id)
     return {"message": "Deauth sequence initiated", "partition": request.partition_id}
 
-import json
-
-@app.get("/api/lattice")
-async def get_lattice():
-    """Returns the lattice folder structure populated from the Excel database."""
-    db = load_db()
-    return db["sheets"]
+@app.get("/api/bom")
+async def get_bom():
     """Returns the live Bill of Materials JSON for the PCB."""
+    schematic_path = os.path.join(os.path.dirname(__file__), "schematic.json")
     try:
-        with open("schematic.json", "r") as f:
+        with open(schematic_path, "r") as f:
             data = json.load(f)
         return {
             "components": data["bom"],
@@ -78,17 +74,9 @@ async def get_lattice():
 
 @app.get("/api/lattice")
 async def get_lattice():
-    """Returns the hierarchical folder lattice structure."""
-    return {
-        "nodes": [
-            {"name": "Root_Lattice", "children": ["Region_Alpha", "Region_Beta", "Region_Gamma"]},
-            {"name": "Region_Alpha", "children": ["Pixel_0x01", "Pixel_0x02"]},
-            {"name": "Region_Beta", "children": ["Pixel_0x03", "Pixel_0x04"]},
-            {"name": "Region_Gamma", "children": ["Pixel_0x05"]}
-        ],
-        "source": "excel_database_master.xlsx",
-        "status": "SYNCHRONIZED"
-    }
+    """Returns the lattice folder structure populated from the Excel database."""
+    db = load_db()
+    return db["sheets"]
 
 if __name__ == "__main__":
     import uvicorn
