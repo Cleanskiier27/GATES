@@ -57,6 +57,15 @@ Returns live core temperatures, routing states, glyph recognition indices, and y
 ### Deauthorization Control (`POST /api/deauth`)
 Asynchronously initiates partition deauth sequences on target hardware.
 
+### Ledger Flex (`GET /api/ledger`)
+Returns all project ledger entries with optional `category` and `status` query filters.
+
+### Ledger Flex Create (`POST /api/ledger`)
+Creates a new project ledger entry. Required fields: `project_name`, `category`, `amount`.
+
+### Ledger Flex Summary (`GET /api/ledger/summary`)
+Returns aggregated totals by category across all ledger entries.
+
 ---
 
 ## 🛡️ Firewall & Security
